@@ -1,1 +1,2 @@
-<div id="descricao" style="position:relative; height:100px; width:500px; background:#FF0000; top:-115px;left:60px"><span style="color: #fff; font-size: 25px;"><br/>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<b>Pare o vídeo antes de mudar de canal</a>
+ <div style=" padding: 6px; text-align: center;">
+<div id="responsecontainer">Urgente! bbbbbbbbbbbbbbbbbb bbbbbbbbbbbb
