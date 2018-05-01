@@ -654,18 +654,22 @@ autoplay=0&rel=0&enablejsapi=1&playerapiid=ytplayer&wmode=transparent" framebord
 <div style="text-align: center;"> 
 <SCRIPT language=Javascript>
 function Nova_janela(pasta) {
-  if (pasta == 'magazinevoce') {
+  if (pasta == 'abr') {
     var url = "https://rawgit.com/soanatareportagens/tv/master/seujornaltvt/18/abr/160418.html";
     window.location.href='https://rawgit.com/soanatareportagens/tv/master/seujornaltvt/18/abr/160418.html'; <!----abre na mesma janela----->
   }
 
 // copie abaixo para adicionar mais uma janela smartfone //
-  if (pasta == 'tenisbaratos') {
+  if (pasta == 'mai') {
     var url = "https://rawgit.com/soanatareportagens/tv/master/seujornaltvt/18/mai.html";
-    window.location.href='https://rawgit.com/soanatareportagens/tv/master/seujornaltvt/18/mai.html'; <!----abre pop up----->
+    window.location.href='https://rawgit.com/soanatareportagens/tv/master/seujornaltvt/18/mai.html'; <!----abre na mesma janela----->
   }
 
-// copie abaixo para adicionar mais uma janela Tecnologia//
+  if (pasta == 'magazinevoce') {
+    var url = "https://www.magazinevoce.com.br/magazineelianefx";
+    window.open("https://www.magazinevoce.com.br/magazineelianefx", "", "width=1200,height=700,left=" + (screen.width - 1200) / 2 + ",top=" + (screen.height - 700) / 2); <!----abre pop up----->
+  } 
+  
   if (pasta == 'doação') {
     var url = "http://soanatareportagensanu.blogspot.com.br/2016/05/contribua-com-este-blog.html";
     window.open(url,'nova_pasta','resizable=no,menubar=no,scrollbars=no,width=1100,height=700');
@@ -683,8 +687,9 @@ function Nova_janela(pasta) {
 <b>Selecione o mês :<br/></b></font></font><FONT face=verdana size=2> <SELECT 
 style=" FONT-SIZE: 11pt;" FONT-FAMILY: verdana"
 onchange=Nova_janela(this.options[this.selectedIndex].value) name=folder_to> <OPTION value="" selected>\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ Clique aqui /////////////////////////////
-<OPTION value=magazinevoce>Abril
-<OPTION value=tenisbaratos>Maio
+<OPTION value=abr>Abril
+<OPTION value=mai>Maio
+<OPTION value=magazinevoce>Loja autorizada Magazine Luiza
 <OPTION value=doação>\\\\\\\\\\\\\\\\\\\\\\\ Fazer uma doação
  ///////////////////////</OPTION></SELECT></p>
 	 </FORM><!--TERMINA O CÓDIGO AQUI-->
