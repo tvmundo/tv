@@ -438,20 +438,21 @@ function Nova_janela(pasta) {
     var url = "https://rawgit.com/soanatareportagens/tv/master/tvpnegra/Patrulha%20da%20Cidade/18/abril.html";
     window.location.href='https://rawgit.com/soanatareportagens/tv/master/tvpnegra/Patrulha%20da%20Cidade/18/abril.html'; <!----abre na mesma janela----->
   }
-
 // copie abaixo para adicionar mais uma janela smartfone //
   if (pasta == 'tenisbaratos') {
     var url = "https://rawgit.com/soanatareportagens/tv/master/tvpnegra/Patrulha%20da%20Cidade/18/mai.html";
     window.location.href='https://rawgit.com/soanatareportagens/tv/master/tvpnegra/Patrulha%20da%20Cidade/18/mai.html'; <!----abre pop up----->
   }
-
+  if (pasta == 'magazinevoce') {
+    var url = "https://www.magazinevoce.com.br/magazineelianefx";
+    window.open("https://www.magazinevoce.com.br/magazineelianefx", "", "width=1200,height=700,left=" + (screen.width - 1200) / 2 + ",top=" + (screen.height - 700) / 2); <!----abre pop up----->
+  } 
 // copie abaixo para adicionar mais uma janela Tecnologia//
   if (pasta == 'doação') {
     var url = "http://soanatareportagensanu.blogspot.com.br/2016/05/contribua-com-este-blog.html";
     window.open(url,'nova_pasta','resizable=no,menubar=no,scrollbars=no,width=1100,height=700');
   }
 // copie acima para adicionar mais uma janela //
-
 }
  </SCRIPT>
  </font>
@@ -465,12 +466,12 @@ style=" FONT-SIZE: 11pt;" FONT-FAMILY: verdana"
 onchange=Nova_janela(this.options[this.selectedIndex].value) name=folder_to> <OPTION value="" selected>\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ Clique aqui /////////////////////////////
 <OPTION value=magazinevoce>Abril
 <OPTION value=tenisbaratos>Maio
+<OPTION value=magazinevoce>Loja autorizada Magazine Luiza
 <OPTION value=doação>\\\\\\\\\\\\\\\\\\\\\\\ Fazer uma doação
  ///////////////////////</OPTION></SELECT></p>
 	 </FORM><!--TERMINA O CÓDIGO AQUI-->
-<br />
 <!--meses fim-->
-<br />
+<br /><br />
 <!---ini---troca banner reflashprog300x250 direita do player--->
 <iframe width="100%" height="85%" src="https://rawgit.com/soanatareportagens/codigosnr/master/banners/codbanner300x250.html" frameborder="0" allowfullscreen></iframe>
 <!---Fim---troca banner reflashprog350x250 direita do player--->
