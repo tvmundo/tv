@@ -1,0 +1,29 @@
+<div style="text-align: center;">
+<script language="JavaScript"> 
+var ultimo=-1, dBanner;
+function carrega(x) {dBanner=x;Banners()}
+function Banners()
+{ 
+var MNews = new Array();  
+MNews[0]= '<A HREF span style="color: #fff; font-size: 25px;"><br/>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <b>URGENTE!<BR/>Ciência - Morreu a aranha mais velha do mundo. Tinha 43 anos</a>'; 
+
+MNews[1]= '<A HREF span style="color: #FFFF00 ; font-size: 25px;"><br/>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <b>URGENTE!<BR/>Ciência - Morreu a aranha mais velha do mundo. Tinha 43 anos</a>';
+
+while((Numero = parseInt(Math.random()*MNews.length))==ultimo);
+dBanner.innerHTML=MNews[Numero];
+
+setTimeout("Banners()",500);
+} 
+</script>
+
+<body bgcolor="#FFFFFF" topmargin=0 leftmargin=0 text="#000000" onLoad=carrega(this.divBanner)> 
+<table width="700" border="0" cellspacing="0" cellpadding="0" height="60" bordercolor="#000000"> 
+<tr> 
+<td> 
+<div align="center" id=divBanner></div> 
+</td> 
+</tr> 
+</table> 
+</body> 
+</html>
+<br/>
