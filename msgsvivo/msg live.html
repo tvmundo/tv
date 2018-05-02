@@ -1,4 +1,70 @@
-
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>JQuery - Banner Flutuante</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+<script type="text/javascript">
+$(function(){
+  var $conteudo = $('#conteudo').width(); // largura do div principal	
+  var $banner	= $('#banner');
+ 
+  $banner.animate({ left: ($conteudo /4)}, 900).show(); // aplicando efeito de deslocamento
+  // para ajustar o posicionamento do banner, basta aumentar o número da divisão
+  // #conteudo tem 1000px dividido por 4 = 250 - então, left será 250
+ 
+  $(".fechar").click(function(event){
+     event.preventDefault(); // previne o evento clique
+     $("#banner").hide(); // ocultando o banner
+  });
+});
+</script>
+<style type="text/css">
+body{ font-family:Arial, Helvetica, sans-serif }
+#conteudo{ 
+margin:0 auto;
+width:900px; 
+height:00px;
+background-color:#DDD;	 
+}
+#banner{
+position:absolute;
+top:250px;
+left:0;
+float:left;
+width:900px; /* largura */
+height:90px; /* altura */
+background-color:#FF8000 ; /* cor de fundo */
+-webkit-border-radius: 8px; /* canto arredondado */
+-moz-border-radius: 8px; /* canto arredondado */
+border-radius: 8px; /* canto arredondado */
+z-index:999999; /* posicionando sobre os demais */
+display:none;
+color:#FFFFFF;
+}
+#banner a{ color:#FFFFFF;text-decoration:none }
+#banner p { padding: 5px 10px 0; }
+p.link{ text-align:center;clear:both }
+#fechar{ 
+position:relative;
+float:right; 
+width:20px;
+height:20px;
+background-color:#f00;
+color:#FFFFFF;
+text-align:center; 
+}
+</style>
+</head>
+<body>
+<div id="conteudo">
+  <div id="banner">
+    
+   <div style="text-align: center;">
+<span style="color: ; font-size: 25px;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <b>URGENTE!<BR/>Em serviço técnico – mensagem sai em alguns minutos</a>
+  </div>
+</div>
+</body>
+</html>
 <!------------------------------------------------------------------------------------------------------------------------------>
 <!------------------------------------------------------------------------------------------------------------------------------>
 <!-----10000=10s--100 000=1M----->
