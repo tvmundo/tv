@@ -11,4 +11,4 @@ else if (window.attachEvent)
 window.attachEvent("onload", staticbar)
 else if (document.getElementById)
 window.onload=staticbar
-</script>
+
