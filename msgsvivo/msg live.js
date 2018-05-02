@@ -1,14 +1,4 @@
-var persistclose=1 // Se colocar o número 0 a janela abrirá novamente. O número 1significa que depois que a barra for fechada, permanecerá fechada
-var startX = 2 // Tamanho horizontal
-var startY = 2 // Tamanho vertical
-var verticalpos="fromtop" // "fromtop" o "frombottom" define se vai em cima ou embaixo
-function iecompattest(){
-return (document.compatMode && document.compatMode!="BackCompat")? document.documentElement : document.body
-}
-if (window.addEventListener)
-window.addEventListener("load", staticbar, false)
-else if (window.attachEvent)
-window.attachEvent("onload", staticbar)
-else if (document.getElementById)
-window.onload=staticbar
-
+<div id="popup" style="display:none; position:fixed; height:90px; width:100%px; background:#FF9900; top:15px;left:40px">
+<span style="color: #B40404; font-size: 20px;">&nbsp; &nbsp;
+<div style=" text-align: center;">
+<b> Polícia e manifestantes mascarados entram em confronto em marcha do Dia do Trabalho em Paris </b></span></a>
