@@ -5,27 +5,11 @@ var verticalpos="fromtop" // "fromtop" o "frombottom" define se vai em cima ou e
 function iecompattest(){
 return (document.compatMode && document.compatMode!="BackCompat")? document.documentElement : document.body
 }
-function get_cookie(Name) {
-var search = Name + "="
-var returnvalue = "";
-if (document.cookie.length > 0) {
-offset = document.cookie.indexOf(search)
-if (offset != -1) {
-offset += search.length
-end = document.cookie.indexOf(";", offset);
-if (end == -1) end = document.cookie.length;
-returnvalue=unescape(document.cookie.substring(offset, end))
-}
-}
-return returnvalue;
-}
-
 function closebar(){
 if (persistclose)
 document.cookie="remainclosed=1"
 document.getElementById("topbar").style.visibility="hidden"
 }
-
 function staticbar(){
 barheight=document.getElementById("topbar").offsetHeight
 var ns = (navigator.appName.indexOf("Netscape") != -1) || window.opera;
@@ -66,9 +50,4 @@ else if (window.attachEvent)
 window.attachEvent("onload", staticbar)
 else if (document.getElementById)
 window.onload=staticbar
-
-
-
-
-
-
+</script>
