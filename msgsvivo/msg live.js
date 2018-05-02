@@ -1,4 +1,3 @@
-<script type="text/javascript">
 var persistclose=0 // Se colocar o número 0 a janela abrirá novamente. O número 1significa que depois que a barra for fechada, permanecerá fechada
 var startX = 2 // Tamanho horizontal
 var startY = 2 // Tamanho vertical
@@ -67,7 +66,7 @@ else if (window.attachEvent)
 window.attachEvent("onload", staticbar)
 else if (document.getElementById)
 window.onload=staticbar
-</script>
+
 
 
 
