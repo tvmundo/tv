@@ -1,0 +1,326 @@
+
+<!---ediçao >>> https://github.com/soanatareportagens/tv/blob/master/baner/Extremoz/Extremoz%20negocios%26n%20350x250.html----->
+<!---visitante >>> https://rawgit.com/soanatareportagens/tv/master/baner/Extremoz/Extremoz%20negocios&n%20350x250.html----->
+  <!---------------------------------------------------------------------------------------------------------------------------->
+<body bgcolor=#2f4456>
+<div style=" padding: 0px; text-align: center;">
+<a href="
+<body bgcolor=#2f4456>
+<!---ediçao >>> https://github.com/soanatareportagens/tv/blob/master/baner/macaiba/negocios&n350x250.html----->
+<!---visitante >>> https://rawgit.com/soanatareportagens/tv/master/baner/macaiba/negocios&n350x250.html----->
+  <!---------------------------------------------------------------------------------------------------------------------------->
+<div style=" padding: 0px; text-align: center;">
+<a href="https://www.facebook.com/groups/1832751570279850"target="_blank"><span style="color: #FFFF00; font-size: 22px;">&nbsp; &nbsp;
+<b> Extremoz Negócios e Notícias <br/>Ver todos os 4.162 itens à venda.<br/> Clique aqui</b></span></a>
+     <!--------------------slider ini------------------------------------------------------------------------------------------------>
+<div style=" padding: 0px; text-align: center;">
+<SCRIPT type="text/javascript">
+/*
+	INTRO BOX WITH PHOTO SLIDESHOW
+		- shows rotating content in a box. with optional frame. each image can be clicked.
+		- WORKS FINE (2008 09) ie7, ie6, ie5, firefox 2.0.0.16, opera 8.52, mozilla 1.7.12
+
+	USAGE SUGGESTION
+		- at where the intro box should be, copy-paste all the code here, including script tags.
+		- do the edits in edit area below.
+		- it will produce a <div style="position:relative;width....>...image...</div>
+
+	FEATURES
+		- missing image handling
+			- tries to load the next image.
+		- first page-load browser busy handling. at first page load, browsers are busy and may delay/skip images.
+			- 5 seconds special delay for slideshow start
+		- round corners
+			- round or bite, any size.
+		- time limit
+			- stops after a certain time
+			- stops at first picture, not any.
+	(C) 2009 SLIDEFUL.COM ( http://www.slideful.com/ )
+*/
+//EDITS START=========================================================================================
+slideful_slideshow=new slideful_slideshow_class();//LAST VALID TEMPLATE
+slideful_slideshow.timeinterval_first_s=5		//time for first image change. in seconds. default 5. same as regular is not suggested as browsers misbehave during first few seconds.
+slideful_slideshow.timeinterval_s=7			//time between image changes. in seconds. default 8. 10 a bit slow. 7 a bit fast.
+slideful_slideshow.rotation_timelimit_s=500;		//seconds to stop rotating. to reduce processor usage if page is left open for a long time. default 300
+slideful_slideshow.width=350				//width
+slideful_slideshow.height=260				//height
+slideful_slideshow.width_outer=450			//total width including any external text and buttons
+slideful_slideshow.height_outer=370			//total height including any external text and buttons
+slideful_slideshow.corner_radius=0			//0 for no round corner. default round 15.
+slideful_slideshow.corner_type_bite=false
+slideful_slideshow.corner_color='white'		//needed to make corners look ok with different color backgrounds. a html color code or name.
+slideful_slideshow.buttons_numeric=true
+slideful_slideshow.buttons_prevnext=true
+slideful_slideshow.buttons_height_outer_px=26		//default 32 tamanho numeros
+slideful_slideshow.buttons_color='#CCCCCC'		//text color. html color codes and names. default #CCCCCC
+slideful_slideshow.buttons_color_on='#FF8888'		//html color codes and names. default #FF8888
+slideful_slideshow.buttons_distance_px=5		 //default 5
+slideful_slideshow.buttons_distance_bottombottom_px=-10  //default 15 sobe desce numeros
+slideful_slideshow.buttons_outside=false
+slideful_slideshow.buttons_distance_left_percent=50	//0 is left, 50 middle, 100 right. default 10 or 50
+slideful_slideshow.buttons_style='background-color:#888888;font-size:22px;font-family:Arial;' //IMPORTANT: ie6 could not draw arrows in Verdana font. So Arial.
+slideful_slideshow.showall_text=null//set to enable, like 'see all my photos'
+slideful_slideshow.showall_href=null//meaningless without this. the target will display them.
+slideful_slideshow.showall_height_outer_px=18
+slideful_slideshow.showall_text_style='background-color:#888888;font-size:11px;font-family:Arial;color:#CCCCCC;padding:0px 5px 0px 5px;'
+slideful_slideshow.contents_ar=new Array;
+//PHOTO EDITS START ***
+slideful_slideshow.contents_ar[0]=(a=new pageobject_content())
+a.src="https://scontent-gru2-1.xx.fbcdn.net/v/t1.0-9/s720x720/32332004_1885388201491491_8938681791791759360_o.jpg?_nc_cat=0&oh=1c138a4c880664a0d66d64bbb3145b91&oe=5B8EC73C" 				
+a.href="https://www.facebook.com/groups/1606276129665315/"//target="_blank"
+                 <!-------------------1 honda fiat acima------------------>
+
+slideful_slideshow.contents_ar[1]=(a=new pageobject_content())
+a.src="https://scontent-gru2-1.xx.fbcdn.net/v/t1.0-9/s720x720/32411207_1885388278158150_8061261368113758208_o.jpg?_nc_cat=0&oh=5a6162b61117955a9b398aeb20c5533c&oe=5B7D6C48"					
+a.href="https://www.facebook.com/groups/1606276129665315/"//target="_blank"
+                 <!-------------------2 honda fiat acima------------------>
+
+slideful_slideshow.contents_ar[2]=(a=new pageobject_content())
+a.src="https://scontent-gru2-1.xx.fbcdn.net/v/t1.0-9/34284641_2550084491882466_572667879569227776_n.jpg?_nc_cat=0&oh=c54c7b9aa5b6f9b99c0af2a50131d618&oe=5BB9CDAD"					//a.href="https://www.facebook.com/groups/1606276129665315/"//target="_blank"
+                 <!-------------------3 palhaco guajiru acima------------------>
+
+slideful_slideshow.contents_ar[3]=(a=new pageobject_content())
+a.src="https://scontent-gru2-1.xx.fbcdn.net/v/t1.0-9/s720x720/32313665_1682756361792575_2015937780500135936_n.jpg?_nc_cat=0&oh=c7e18cdcc35f3f3d17edab0b05186836&oe=5B80770A"					
+a.href="https://www.facebook.com/groups/1606276129665315/"//target="_blank"
+                <!-------------------4 toca do acai acima------------------>
+
+slideful_slideshow.contents_ar[4]=(a=new pageobject_content())
+a.src="https://scontent-gru2-1.xx.fbcdn.net/v/t1.0-0/p180x540/32288449_1995595977181443_6889880652414451712_n.jpg?_nc_cat=0&oh=87459eb7dbe372cbd2d845763db0edd7&oe=5B83C5C8"					//a.href="https://www.facebook.com/groups/1606276129665315/"//target="_blank"
+a=null;
+                <!-------------------5 investimento campeao acima------------------>
+
+slideful_slideshow.contents_ar[5]=(a=new pageobject_content())
+a.src="https://scontent-gru2-1.xx.fbcdn.net/v/t1.0-9/s720x720/32266757_1995596133848094_2026190580400259072_n.jpg?_nc_cat=0&oh=279853353342af4c89268992a9d38f91&oe=5B82B756"					//a.href="https://www.facebook.com/groups/1606276129665315/"//target="_blank"
+a=null;
+               <!-------------------6 Emmanuelle Liberato acima------------------>
+
+slideful_slideshow.contents_ar[6]=(a=new pageobject_content())
+a.src="https://scontent-gru2-1.xx.fbcdn.net/v/t1.0-0/p600x600/32231182_1301594336637912_6028316831381454848_n.jpg?_nc_cat=0&oh=94038afdf60c5cc4c14480870e57d79e&oe=5B97E385"					//picture
+//a.href="/" //its link if any. comment out to disable ***************
+a=null;
+               <!-------------------7 construtora immov acima------------------>
+
+slideful_slideshow.contents_ar[7]=(a=new pageobject_content())
+a.src="https://scontent-gru2-1.xx.fbcdn.net/v/t1.0-9/13939501_617602531742844_5570126360666890171_n.jpg?_nc_cat=0&oh=13335e2c5435b76f9cea1ffb3cbe8246&oe=5B99EDFD"					//picture2 carro
+//a.href="/" //its link if any. comment out to disable ***************
+               <!-------------------8 igreja extremoz acima------------------>
+
+slideful_slideshow.frameimage=new pageobject_content()
+//slideful_slideshow.frameimage.src="#"; //OPTIONAL FRAME IMAGE OVER/UNDER SLIDESHOW. comment out to disable
+slideful_slideshow.frameimage_over=true;				//true for a frame with a hole, false for a frame to go under the pictures
+//PHOTO EDITS END ***
+
+//EDITS END============================================================================================ 
+slideful_slideshow.write();
+function slideful_slideshow_class()
+	{
+	this.write=function()
+		{
+		//IMPORTANT: text-align:left   otherwise any parent text-align:center confuses some items.
+		document.write('<DIV style="position:relative;text-align:left;width:'+this.width_outer+'px;height:'+this.height_outer+'px">');
+		document.write('<DIV style="position:absolute;overflow:hidden;width:'+this.width+'px;height:'+this.height+'px">');
+		if(typeof(slideful_slideshow_class_idcounter)=='undefined')
+			{slideful_slideshow_class_idcounter=0;slideful_slideshow_class_objects_ar=Array()}
+		else slideful_slideshow_class_idcounter++
+		this.uniqueid_int=slideful_slideshow_class_idcounter
+		slideful_slideshow_class_objects_ar[this.uniqueid_int]=this
+		this.zIndex_current=500;
+		this.content_current_n=0
+		//frame
+		if((this.frameimage!=null) && (this.frameimage.src!=null))
+				{
+				this.frameimage.href=this.contents_ar[0].href;
+				this.frameimage.id='slideful_slideshow_class'+this.uniqueid_int+'_'+'frame';
+				this.frameimage.style='position:absolute;z-index:'+(this.frameimage_over?10000:100)+';width:'+this.width+'px;height:'+this.height+'px';
+				//ie6 excluded from png transparency images
+				if	(
+					(navigator.userAgent.search(/\bMSIE ?[456]/i)!=-1)
+					&&
+					(this.frameimage.src.search(/\.png($|\?|#)/i)!=-1)
+					)
+					this.frameimage.src=null;
+				this.frameimage.write();
+				}
+		//draw contents
+		for(var n=this.contents_ar.length-1;n>=0;n--)
+			{
+			if(n==0)	{this.contents_ar[n].style='position:absolute;z-index:'+(this.zIndex_current-1)+';'
+					}
+			else		{
+					this.contents_ar[n].style='position:absolute;z-index:'+(this.zIndex_current-1)+';visibility:hidden;';
+					this.contents_ar[n].noload=true //except top image, all invisible
+					}
+			this.contents_ar[n].style+='visibility:hidden;';			 //IMPORTANT, otherwise ie7 shows broken image icon until image is loaded
+			this.contents_ar[n].taghtml='onload="this.myonloadcounter=1;this.style.visibility=\'visible\'"'  //IMPORTANT, otherwise ie7 shows broken image icon until image is loaded
+			//this.contents_ar[n].width=this.width
+			this.contents_ar[n].height=this.height
+			this.contents_ar[n].id='slideful_slideshow_class'+this.uniqueid_int+'_'+n;
+			this.contents_ar[n].write();
+			}
+
+		//draw corners
+		var r=this.corner_radius
+		if(r>0) for(var y=0;y<=r;y++)
+			{
+			var w=Math.round(this.corner_type_bite?Math.sqrt(r*r-y*y)		:r-Math.sqrt(r*r-(r-y-0.5)*(r-y-0.5)))
+			this.corner_write(0,y,w,1);this.corner_write(this.width-w,y,w,1);this.corner_write(0,this.height-1-y,w,1);this.corner_write(this.width-w,this.height-1-y,w,1);
+			}
+		document.write('</DIV>');
+		//draw showall
+		if(this.showall_href!=null)
+			{
+			y=Math.round(this.buttons_outside?	this.height+this.buttons_distance_bottombottom_px:this.height-this.showall_height_outer_px-this.buttons_distance_bottombottom_px-((this.buttons_prevnext || this.buttons_numeric)? this.buttons_height_outer_px:0));
+			document.write (
+					 '<DIV style="position:relative;text-align:center;z-index:10000;top:'+y+'px;'+this.showall_text_style.replace(/(^|;)\s*(background-color)\s*:[^;]*/,'')+';">'
+					+'<a target="_top" href="'+this.showall_href+'"'
+					+(this.showall_text_style==null?''	:' style="'+this.showall_text_style.replace(/(^|;)\s*(top|left|width|height|padding)\s*:[^;]*/,'') +'"')
+					+'>'
+					+this.showall_text
+					+'</a></div>'
+					)
+			}
+		//draw buttons
+		if(this.buttons_prevnext)this.button_write('&#9668;','prev',"with(slideful_slideshow_class_objects_ar["+this.uniqueid_int+"]) display_andcontinue(content_current_n-1)")
+		if(this.buttons_prevnext)this.button_write('&#9658;','next',"with(slideful_slideshow_class_objects_ar["+this.uniqueid_int+"]) display_andcontinue(content_current_n+1)")
+		if(this.buttons_numeric)	for(var n=0;n<this.contents_ar.length;n++) this.button_write(n+1,n,"with(slideful_slideshow_class_objects_ar["+this.uniqueid_int+"]) {timer_stop();display("+n+")}")
+		document.write('</DIV>');
+		this.action_type="start"
+		this.rotation_time_start_utc_ms=(new Date()).getTime()
+		this.timer_start(this.timeinterval_first_s/2)
+		}
+	this.button_write=function(text,n0123,onmouseup)
+		{
+		var w=((this.buttons_prevnext?2:0)+(this.buttons_numeric?this.contents_ar.length:0))*(this.buttons_height_outer_px+this.buttons_distance_px)-this.buttons_distance_px
+		var n=((n0123=='prev')?0	:((n0123=='next')?(this.buttons_numeric?this.contents_ar.length+1:1)	 :(this.buttons_prevnext?n0123+1 :n0123)))
+		var x=Math.round((this.width-w)*this.buttons_distance_left_percent/100+(this.buttons_height_outer_px+this.buttons_distance_px)*n)
+		var y=Math.round(this.buttons_outside?	this.height+this.buttons_distance_bottombottom_px+(this.showall_text!=null?this.showall_height_outer_px:0):this.height-this.buttons_height_outer_px-this.buttons_distance_bottombottom_px)
+		var id='slideful_slideshow_class'+this.uniqueid_int+'_button'+n0123
+		document.write('<DIV id="'+id+'" style="position:absolute;z-index:10000;width:'+this.buttons_height_outer_px+'px;height:'
+				+this.buttons_height_outer_px+'px;left:'+x+'px;top:'+y+'px;cursor:pointer;text-align:center;'
+				+this.buttons_style+';color:'+this.buttons_color+';" onmouseup="'+onmouseup+'">'+text+'</div>');
+		document.write('<DIV style="position:absolute;z-index:1002;width:'+this.buttons_height_outer_px+'px;height:'+this.buttons_height_outer_px+'px;left:'+x+'px;top:'+y+'px;cursor:pointer;" onmouseup="'+onmouseup+'"></div>');
+		}
+	this.button_off=function(n)	{if(this.buttons_numeric) document.getElementById('slideful_slideshow_class'+this.uniqueid_int+'_button'+n).style.color=this.buttons_color;}
+	this.button_on=function(n)	{if(this.buttons_numeric) document.getElementById('slideful_slideshow_class'+this.uniqueid_int+'_button'+n).style.color=this.buttons_color_on;}
+
+
+	this.corner_write=function(x,y,w,h) {document.write('<DIV style="position:absolute;font-size:0px;z-index:10000;background-color:'+this.corner_color+';width:'+w+'px;height:'+h+'px;left:'+x+'px;top:'+y+'px;"></div>');}
+
+
+	this.display_andcontinue=function(n)
+		{
+		if(n!=null) {this.timer_stop();this.display(n);this.timer_start();this.rotation_time_start_utc_ms=(new Date()).getTime();return;}
+		if(this.content_current_n==0) if ((new Date()).getTime()>this.rotation_time_start_utc_ms+this.rotation_timelimit_s*1000) return
+		switch(this.action_type)
+			{
+			case "start":	this.button_on(0)
+					this.content_next=(this.contents_ar.length<=1?0:1)
+					this.contents_ar[this.content_next].src_SET_ifnotset()
+					this.action_type="usualpass"
+					this.timer_start(this.timeinterval_first_s/2)
+					break
+
+			case "usualpass":
+					//usual pass
+					if(this.contents_ar[this.content_next].ready())
+						{
+						this.display(this.content_next)
+						this.timer_start()
+						}
+					else	{
+						this.content_next++;
+						if(this.content_next>=this.contents_ar.length) {this.content_next=0;}
+						this.display(this.content_next)
+						this.timer_start()
+						}
+			}
+		}
+
+	this.display=function(n)
+		{
+		if(n<0) n=this.contents_ar.length-1
+		if(n>=this.contents_ar.length) n=0
+		this.contents_ar[n].src_SET_ifnotset()
+		this.zIndex_current++;
+		for(var nn=this.contents_ar.length-1;nn>=0;nn--) this.button_off(nn);
+		//if(this.contents_ar[n].ready())
+			with(document.getElementById(this.contents_ar[n].id).style){zIndex=this.zIndex_current;visibility="visible"};this.button_on(n) //IMPORTANT: opera 8.52 does not show images if visibility only is used + the window is minimized/restored
+		if(this.zIndex_current>9000)
+			{
+			for(var nn=this.contents_ar.length-1;nn>=0;nn--) {if(n!=nn) document.getElementById(this.contents_ar[nn].id).style.zIndex-=8500;}
+			this.zIndex_current-=8500;
+			document.getElementById(this.contents_ar[n].id).style.zIndex=this.zIndex_current;
+			}
+		if((this.frameimage!=null) && (this.frameimage.src!=null) && (this.contents_ar[this.content_next].href!=null))
+			document.getElementById(this.frameimage.id+'_a').href=this.contents_ar[this.content_next].href
+		this.content_current_n=n
+		this.content_next=this.content_current_n+1;if(this.content_next>=this.contents_ar.length) this.content_next=0
+		this.contents_ar[this.content_next].src_SET_ifnotset()
+		}
+	this.timer_start=function(timer_s)
+		{
+		this.timer_stop();
+		var obj=this; this.timer=window.setTimeout(function (){obj.display_andcontinue()},1000*(timer_s==null?this.timeinterval_s:timer_s));
+		}
+	this.timer_stop=function(){if (this.timer) window.clearTimeout(this.timer);this.timer=null}
+	}
+function pageobject_content()
+	{
+	this.write=function()
+		{
+		this.extension = (this.src==null?'': this.src.replace(/^.*\.([^\.\?]+).*$/,'$1').toLowerCase()) //IMPORTANT: query parameters excluded
+		switch(this.extension)
+			{
+			case 'html':
+			case 'htm':	this.extension='htm'
+					document.write
+						('<IFRAME'
+						+(((this.src==null)||(this.noload))?''	:' src="'+this.src+'"')
+						+(this.id==null?''		:' id="'+this.id+'"')
+						+(this.width==null?''		:' width="'+this.width+'"')
+						+(this.height==null?''		:' height="'+this.height+'"')
+						+(this.taghtml==null?'' 	:' '+this.taghtml)
+						+' style="border:none;'+(this.style==null?''		:this.style)+'"'
+						+ '>'
+						+'</IFRAME>'
+						)
+					break;
+
+
+			default :
+					this.extension='jpg'
+					if(this.src==null) break;
+					document.write
+						(
+						(this.href==null?''	   :'<a'+(this.id==null?''	  :' id="'+this.id+'_a"')+(this.href==''?''	   :' href="'+this.href)+'">')
+						+'<IMG'
+						+(((this.src==null)||(this.noload))?''	     :' src="'+this.src+'"')
+						+(this.id==null?''	     :' id="'+this.id+'"')
+						+(this.taghtml==null?''      :' '+this.taghtml)
+						+' style="border:none;'
+							+(this.width==null?''		:'width:'+this.width+'px;')	//IMPORTANT firefox 2.0.0.16 did not smoothly display tag width/height
+							+(this.height==null?''		:'height:'+this.height+'px;')
+							+(this.style==null?''		:this.style)
+							+'"' + '>'
+						+(this.href==null?''	    :'</a>')
+						)
+					break;
+
+			}
+		}
+
+	this.src_SET_ifnotset=function() {with(document.getElementById(this.id)) if((src==null)||(src=='')) src=this.src}
+
+	this.ready=function()
+		{obj=document.getElementById(this.id)
+		if(obj==null) return true
+		switch  (this.extension)
+			{
+			case 'jpg':	return (obj.myonloadcounter==1)// obj.clientWidth!=null)
+			case 'htm':	return (obj.clientWidth!=null)
+			}
+		}
+	}
+</SCRIPT><NOSCRIPT><a href="#">Free Online Slide Show Maker</a></NOSCRIPT>
+</div>
+       <!--------------------slider fim------------------------------------------------------------------------------------------------>
