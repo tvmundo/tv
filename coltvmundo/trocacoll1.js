@@ -7,7 +7,7 @@
  *
  * Copyright 2005, 2014 jQuery Foundation, Inc. and other contributors
  * Released under the MIT license
- * http://jquery.org/license
+ * http://jquery.org/license         visitante https://rawgit.com/soanatareportagens/tv/master/coltvmundo/trocacoll1.js
  *
  * Date: 2014-05-01T17:42Z
  */
