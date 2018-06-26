@@ -1,49 +1,15 @@
-<!---
--
-- >>> https://github.com/soanatareportagens/tv/blob/master/filmes/terror.html
-- >>> https://rawgit.com/soanatareportagens/tv/master/filmes/terror.html
--
----->
-<!-------------------------------------------------texto vivo fixo topo ini--------------------------------------------------------->
-<style type="text/css">
-#divpagini{
-  position:fixed;
-  z-index:999; 
-  left:-410px; 
-  top:0px;
-  overflow:hidden;
-  background-color: #2f4456;
-  border:0px dashed #CCC;
-  padding:0px;
-  margin:0 auto;
-  width:78%;
-  height:85px;
-{
-    visibility: hidden;
-}
-</style>
-<!-----hidden=invisivel-----none=visivel------>
-<div style="visibility:none">
-<div align="center" id=divpagini>
-<!------linha de spaço----->
-<div style=" padding: 5px; text-align: center;"></div>
-<!------linha de spaço----->
-<a href=" http://bit.ly/2iZsqwK  " title=TV Mundo "nofollow">
-<span style="color: #FFFF00; font-size: 20px;">&nbsp;
-<b> Pagina Inicial </b></span></a>
-</div>
-<!------------------------------------Div pag ini acima--------------------------------------------------------->
+
  <style type="text/css">
   #trocatxt{
   position:fixed;
   z-index:999; 
-  left:200px; 
+  left:2px; 
   top:0px;
   overflow:none;
   border:0px dashed #FFFF00;
   padding:0px;
   margin:0 auto;
-  width: 86%;
+  width: 100%;
   height:85px;
   background:#f00;
   {
@@ -56,7 +22,7 @@
 	</div></div></div></div></div>
 <!----------------------Marquee fim------------------------>
 <div id='navigation_up_down_35349'><script src='https://rawgit.com/soanatareportagens/codigosnr/master/js/updn%20mod1.js' type='text/javascript'/></div></script></div>
-<!--------------------------------------------texto vivo fixo topo fim-------------------------------------------------></br></br></br>
+<!--------------------------------------------texto vivo fixo topo fim-------------------------------------------------></br></br></br></br></br>
 <body bgcolor=#000>
 <!------------
 -
@@ -85,8 +51,9 @@ function showDiv(div)
 background: url(https://rawgit.com/soanatareportagens/codigosnr/master/tv%20mundo%20imgs/seta%20pisc%20dir%20min.gif) no-repeat left #2f4456; border: px solid #2f4456;  font-size: 18px; color: #fff; "><b></b></span> } 
        </style>
 </style>
- <select id="combobox" name="combobox" onchange="showDiv(this.value);">
-             <option value="plano0" />&nbsp; &nbsp;...→&nbsp; Canal 4 TV Humor português Brasil | 2 Canais ao vivo &nbsp;...→ aqui
+ <select id="combobox" name="combobox" onchange="showDiv2(this.value);showDiv(this.value);">
+             <option value="tv" />&nbsp; &nbsp;...→&nbsp; Pagina Inicial da tv Mundo &nbsp;...→ aqui
+             <option value="plano0" />&nbsp; &nbsp;...→&nbsp; Lista de Filmes &nbsp;...→ aqui
 	     <option value="plano1" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Canal 1 Todo mundo odeia o Chris ao vivo    
 	     <option value="plano2" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Canal 2 Dois homens e meio - Ao Vivo ( two and a half man) 
       
@@ -137,3 +104,33 @@ temp------------>
 <!---Fim---troca banner reflashprog350x250 no player--->
 <div style="position:relative; height:9px; left:-8px; top:-355px; width:9px"><span onmouseup="document.getElementById('floatLayer').style.display='none'"><img alt="FECHAR" border="0" height="15" src="https://raw.githubusercontent.com/soanatareportagens/codigosnr/master/tv%20mundo%20imgs/fechar%201.jpg" width="15" /></span></div></div> 
                 <!-----------Fim div abre temp banner------------></div>
+ <!--------------------select pop up inicio--------------->
+<SCRIPT language=Javascript>
+function showDiv2(pasta) {
+  if (pasta == 'tv') {
+    var url = "https://rawgit.com/soanatareportagens/codigosnr/master/tv%20mundo.html";
+    window.open("https://rawgit.com/soanatareportagens/codigosnr/master/tv%20mundo.html", target="_parent");<!----abre na mesma janela----->
+  }
+// copie abaixo para adicionar mais uma janela smartfone //
+  if (pasta == 'mai') {
+    var url = "https://rawgit.com/soanatareportagens/tv/master/seujornaltvt/18/mai.html";
+    window.open("https://rawgit.com/soanatareportagens/tv/master/seujornaltvt/18/mai.html", target="_parent");
+  }
+// copie abaixo para adicionar mais uma janela smartfone //
+  if (pasta == 'jun') {
+    var url = "https://rawgit.com/soanatareportagens/tv/master/seujornaltvt/18/jun.html";
+    window.open("https://rawgit.com/soanatareportagens/tv/master/seujornaltvt/18/jun.html", target="_parent");
+  }
+  if (pasta == 'magazinevoce') {
+    var url = "https://www.magazinevoce.com.br/magazineelianefx";
+    window.open(url,'nova_pasta',"width=1200,height=700,left=" + (screen.width - 1200) / 2 + ",top=" + (screen.height - 700) / 2); 
+  } 
+// copie abaixo para adicionar mais uma janela Tecnologia//
+  if (pasta == 'doação') {
+    var url = "http://soanatareportagensanu.blogspot.com.br/2016/05/contribua-com-este-blog.html";
+    window.open(url,'nova_pasta',"width=1200,height=700,left=" + (screen.width - 1200) / 2 + ",top=" + (screen.height - 700) / 2);
+  }
+// copie acima para adicionar mais uma janela //
+}
+ </SCRIPT>
+               <!--------------------select pop up fim--------------->
