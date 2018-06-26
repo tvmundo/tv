@@ -1,5 +1,5 @@
 /* This notice must be untouched at all times.     https://github.com/soanatareportagens/tv/blob/master/msgsobretxt/wz_tooltip.js
-Copyright (c) 2002-2008 Walter Zorn. All rights reserved.   
+Copyright (c) 2002-2008 Walter Zorn. All rights reserved. https://rawgit.com/soanatareportagens/tv/master/msgsobretxt/wz_tooltip.js
 
 wz_tooltip.js	 v. 5.31
 
