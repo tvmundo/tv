@@ -45,10 +45,10 @@ background: url(https://rawgit.com/soanatareportagens/codigosnr/master/tv%20mund
         <option value="plano1" />&nbsp; &nbsp;...→&nbsp; Selecione Uma Categoria aqui
         <OPTION value="magazinevoce" />&nbsp; &nbsp; Loja autorizada Magazine Luiza
         <OPTION value="doação" />&nbsp; &nbsp; Fazer uma doação para este site
-	<option value="terror" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 1 Terror
-	<option value="guerra" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 2 Guerra
-	<option value="religiosos" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 3 Religiosos
-        <option value="plano4" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 4 ---------------------------
+	<option value="1 terror" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 1 Terror
+	<option value="2 guerra" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 2 Guerra
+	<option value="3 religiosos" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 3 Religiosos
+        <option value="4 Filme de ficção" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 4 ---------------------------
         <option value="plano5" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 5 ---------------------------
         <option value="plano6" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 6 ---------------------------
         <option value="plano7" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 7 ---------------------------
@@ -70,17 +70,21 @@ background: url(https://rawgit.com/soanatareportagens/codigosnr/master/tv%20mund
 <!--------------------select pop up inicio--------------->
 <SCRIPT language=Javascript>
 function showDiv2(pasta) {
-  if (pasta == 'terror') {
+  if (pasta == '1 terror') {
     var url = "https://rawgit.com/soanatareportagens/tv/master/filmes/terror.html";
     window.open("https://rawgit.com/soanatareportagens/tv/master/filmes/terror.html", target="_parent");<!----abre na mesma janela----->
   }
 // copie abaixo para adicionar mais uma janela smartfone //
-  if (pasta == 'guerra') {
+  if (pasta == '2 guerra') {
     var url = "https://rawgit.com/soanatareportagens/tv/master/filmes/guerra.html";
     window.open("https://rawgit.com/soanatareportagens/tv/master/filmes/guerra.html", target="_parent");<!----abre na mesma janela----->
   }
 // copie abaixo para adicionar mais uma janela smartfone //
-  if (pasta == 'religiosos') {
+  if (pasta == '3 religiosos') {
+    var url = "https://rawgit.com/soanatareportagens/tv/master/filmes/religiosos.html";
+    window.open("https://rawgit.com/soanatareportagens/tv/master/filmes/religiosos.html", target="_parent");
+  }
+	if (pasta == '4 Filme de ficção') {
     var url = "https://rawgit.com/soanatareportagens/tv/master/filmes/religiosos.html";
     window.open("https://rawgit.com/soanatareportagens/tv/master/filmes/religiosos.html", target="_parent");
   }
