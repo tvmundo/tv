@@ -1,0 +1,103 @@
+<body bgcolor=#000>
+<!---
+-
+- >>> https://github.com/soanatareportagens/tv/blob/master/filmes/select.html
+->>> https://rawgit.com/soanatareportagens/tv/master/filmes/select.html
+-
+---->
+<script language="Javascript">
+function showDiv(div)
+{
+      document.getElementById("plano1").className = "invisivel";
+      document.getElementById("plano2").className = "invisivel";
+      document.getElementById("plano3").className = "invisivel";
+      document.getElementById("plano4").className = "invisivel";
+      document.getElementById("plano5").className = "invisivel";
+      document.getElementById("plano6").className = "invisivel";
+      document.getElementById("plano7").className = "invisivel";
+      document.getElementById("plano8").className = "invisivel";
+      document.getElementById("plano9").className = "invisivel";
+      document.getElementById("plano10").className = "invisivel";
+      document.getElementById("plano11").className = "invisivel";
+      document.getElementById("plano12").className = "invisivel";
+      document.getElementById("plano13").className = "invisivel";
+      document.getElementById("plano14").className = "invisivel";
+      document.getElementById("plano15").className = "invisivel";
+      document.getElementById("plano16").className = "invisivel";
+      document.getElementById("plano17").className = "invisivel";
+      document.getElementById("plano18").className = "invisivel";
+      document.getElementById("plano19").className = "invisivel";
+      document.getElementById("plano20").className = "invisivel";
+     
+document.getElementById(div).className = "visivel";
+}
+</script>
+<style>
+.invisivel { display: none; }
+.visivel { visibility: visible; }
+</style>
+
+<style type="text/css"> /* Para todos os options */ select, option{ width:290pt; height:25pt; padding:1pt 17pt; 
+background: url(https://rawgit.com/soanatareportagens/codigosnr/master/tv%20mundo%20imgs/seta%20D%20color.GIF) no-repeat left #2f4456; border: px solid #2f4456;  font-size: 19px; color: #fff; "></b></span> } 
+       </style>
+</style>
+ <select id="combobox" name="combobox" onchange="showDiv2(this.value);showDiv(this.value);">
+        <option value="plano1" />&nbsp; &nbsp;...→&nbsp; Selecione Uma Categoria aqui
+        <OPTION value="magazinevoce" />&nbsp; &nbsp; Loja autorizada Magazine Luiza
+        <OPTION value="doação" />&nbsp; &nbsp; Fazer uma doação para este site
+	<option value="1 terror" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 1 Terror
+	<option value="2 guerra" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 2 Guerra
+	<option value="3 religiosos" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 3 Religiosos
+        <option value="4 Filme de ficção" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 4 Ficção
+        <option value="plano5" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 5 ---------------------------
+        <option value="plano6" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 6 ---------------------------
+        <option value="plano7" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 7 ---------------------------
+        <option value="plano8" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 8 ---------------------------
+        <option value="plano9" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 9 ---------------------------
+        <option value="plano10" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;10 ---------------------------
+        <option value="plano11" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;11 ---------------------------
+        <option value="plano12" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;12 ---------------------------
+        <option value="plano13" />&nbsp;13 ---------------------------
+        <option value="plano14" />&nbsp;14 ---------------------------
+        <option value="plano15" />&nbsp;15 ---------------------------
+        <option value="plano16" />&nbsp;16 ---------------------------
+        <option value="plano17" />&nbsp;17 ---------------------------
+        <option value="plano18" />&nbsp;18 ---------------------------
+        <option value="plano19" />&nbsp;19 ---------------------------
+        <option value="plano20" />&nbsp;20 ---------------------------
+       
+</div>      
+<!--------------------select pop up inicio--------------->
+<SCRIPT language=Javascript>
+function showDiv2(pasta) {
+  if (pasta == '1 terror') {
+    var url = "https://rawgit.com/soanatareportagens/tv/master/filmes/terror.html";
+    window.open("https://rawgit.com/soanatareportagens/tv/master/filmes/terror.html", target="_parent");<!----abre na mesma janela----->
+  }
+// copie abaixo para adicionar mais uma janela smartfone //
+  if (pasta == '2 guerra') {
+    var url = "https://rawgit.com/soanatareportagens/tv/master/filmes/guerra.html";
+    window.open("https://rawgit.com/soanatareportagens/tv/master/filmes/guerra.html", target="_parent");<!----abre na mesma janela----->
+  }
+// copie abaixo para adicionar mais uma janela smartfone //
+  if (pasta == '3 religiosos') {
+    var url = "https://rawgit.com/soanatareportagens/tv/master/filmes/religiosos.html";
+    window.open("https://rawgit.com/soanatareportagens/tv/master/filmes/religiosos.html", target="_parent");
+  }
+	if (pasta == '4 Filme de ficção') {
+    var url = "https://rawgit.com/soanatareportagens/tv/master/filmes/fic%C3%A7%C3%A3o.html";
+    window.open("https://rawgit.com/soanatareportagens/tv/master/filmes/fic%C3%A7%C3%A3o.html", target="_parent");
+  }
+  if (pasta == 'magazinevoce') {
+    var url = "https://www.magazinevoce.com.br/magazineelianefx";
+    window.open(url,'nova_pasta',"width=1200,height=700,left=" + (screen.width - 1200) / 2 + ",top=" + (screen.height - 700) / 2); 
+  } 
+// copie abaixo para adicionar mais uma janela Tecnologia//
+  if (pasta == 'doação') {
+    var url = "http://soanatareportagensanu.blogspot.com.br/2016/05/contribua-com-este-blog.html";
+    window.open(url,'nova_pasta',"width=1200,height=700,left=" + (screen.width - 1200) / 2 + ",top=" + (screen.height - 700) / 2);
+  }
+// copie acima para adicionar mais uma janela //
+}
+ </SCRIPT>
+               <!--------------------select pop up fim--------------->
