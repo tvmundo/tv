@@ -47,18 +47,17 @@ background: url(https://rawgit.com/soanatareportagens/codigosnr/master/tv%20mund
         <OPTION value="doação" />&nbsp; &nbsp; Fazer uma doação para este site
 	<option value="inicio" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Inicio
 	<option value="cn1" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 1 Bom dia Rio
-	<option value="cn2" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 2 Bom dia Brasil
-        <option value="cn3" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 3 Jornal hoje
-        <option value="cn4" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 4 Jornal Nacional
-        <option value="cn5" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 5 Fantástico
-        <option value="cn6" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 6 Globo News
-        <option value="cn7" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 7 Globo Live 1
-        <option value="cn8" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 8 Globo Live 2
-        <option value="cn9" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;9 Globo Live 3
-        <option value="cn10" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;10 Globo Live 4
-        <option value="cn11" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;11 Globo Live 5
-        <option value="cn12" />&nbsp;13 ---------------------------
-        <option value="cn13" />&nbsp;14 ---------------------------
+	<option value="bdsp" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 2 Bom dia SP
+	<option value="cn2" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 3 Bom dia Brasil
+        <option value="cn3" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 4 Jornal hoje
+        <option value="cn4" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 5 Jornal Nacional
+        <option value="cn5" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 6 Fantástico
+        <option value="cn6" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 7 Globo News
+        <option value="cn7" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 8 Globo Live 1
+        <option value="cn8" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 9 Globo Live 2
+        <option value="cn9" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 10 Globo Live 3
+        <option value="cn10" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 11 Globo Live 4
+        <option value="cn11" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 12 Globo Live 5
         <option value="cn14" />&nbsp;15 ---------------------------
         <option value="cn15" />&nbsp;16 ---------------------------
         <option value="cn16" />&nbsp;17 ---------------------------
@@ -76,6 +75,11 @@ function showDiv2(pasta) {
   }
 // copie abaixo para adicionar mais uma janela smartfone //
   if (pasta == 'cn1') {
+    var url = "https://rawgit.com/soanatareportagens/tv/master/canais/br/globo/cn1.html";
+    window.open("https://rawgit.com/soanatareportagens/tv/master/canais/br/globo/cn1.html", target="_parent");<!----abre na mesma janela----->
+  }
+// copie abaixo para adicionar mais uma janela smartfone //
+  if (pasta == 'bdsp') {
     var url = "https://rawgit.com/soanatareportagens/tv/master/canais/br/globo/cn1.html";
     window.open("https://rawgit.com/soanatareportagens/tv/master/canais/br/globo/cn1.html", target="_parent");<!----abre na mesma janela----->
   }
