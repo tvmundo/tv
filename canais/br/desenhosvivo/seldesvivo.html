@@ -42,19 +42,19 @@ background: url(https://rawgit.com/soanatareportagens/codigosnr/master/tv%20mund
        </style>
 </style>
  <select id="combobox" name="combobox" onchange="showDiv2(this.value);showDiv(this.value);">
-        <option value="inicio" />&nbsp; &nbsp;...→&nbsp; Desenhos | 5 Canais ao vivo aqui
+        <option value="inicio" />&nbsp; &nbsp;...→&nbsp; Desenhos | 8 Canais ao vivo aqui
         <OPTION value="magazinevoce" />&nbsp; &nbsp; Loja autorizada Magazine Luiza
         <OPTION value="doação" />&nbsp; &nbsp; Fazer uma doação para este site
 	<option value="inicio" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Inicio desenhos
 	<option value="inibr" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Inicio Canais Brasil
-	<option value="cn1" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Desenhos 1
-	<option value="cn2" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Desenhos 2
-        <option value="cn3" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Desenhos 3 Mr Bean
-        <option value="cn4" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Desenhos 4
-        <option value="cn5" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Desenhos 5
-        <option value="cn6" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Desenhos 6
-        <option value="cn7" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Desenhos 7 Pica Pau em Português
-        <option value="cn8" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 9 ---------------------------
+	<option value="cn1" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Desenho 1
+	<option value="cn2" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Desenho 2
+        <option value="cn3" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Desenho 3 Mr Bean
+        <option value="cn4" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Desenho 4
+        <option value="cn5" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Desenho 5
+        <option value="cn6" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Desenho 6
+        <option value="cn7" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Desenho 7 Pica Pau em Português
+        <option value="cn8" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Desenho 8 O Show da Luna!
         <option value="cn" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;10 ---------------------------
         <option value="cn10" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;11 ---------------------------
         <option value="f11" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;12 ---------------------------
@@ -109,6 +109,10 @@ function showDiv2(pasta) {
 	if (pasta == 'cn7') {
     var url = "https://rawgit.com/soanatareportagens/tv/master/canais/br/desenhosvivo/cn7.html";
     window.open("https://rawgit.com/soanatareportagens/tv/master/canais/br/desenhosvivo/cn7.html", target="_parent");
+  }
+	if (pasta == 'cn8') {
+    var url = "https://rawgit.com/soanatareportagens/tv/master/canais/br/desenhosvivo/cn8.html";
+    window.open("https://rawgit.com/soanatareportagens/tv/master/canais/br/desenhosvivo/cn8.html", target="_parent");
   }
   if (pasta == 'magazinevoce') {
     var url = "https://www.magazinevoce.com.br/magazineelianefx";
