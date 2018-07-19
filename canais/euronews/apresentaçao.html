@@ -14,6 +14,46 @@
 "border="0" width="100%" height="560"/>	</div></div>
 	 <!----------------Canal 1 apresentaçao jpg acima------------------->
 </div>
+
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.css"/>
+
+<div style="display: none; width:900px;" id="hidden-content">
+
+   <div style="clear: both">
+<div style="text-align: center;">
+<span style="color: #fff; font-size: 20px;"><b></a>
+<iframe width="800" height="560" scrolling="no" src="https://rawgit.com/soanatareportagens/tv/master/canais/euronews/cn1.html" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div></div><!------------1 euronews (em português) Live acima------------------->
+
+</div>
+<div class="container">
+    <a data-fancybox data-src="#hidden-content" href="javascript:;" class="btn btn-lg btn-success">
+        Open Euro News
+    </a>
+   
+</div>
+
+<script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.js"></script>
+
+<script>
+    $(function () {
+        $('body').on('click', '.select-btn', function () {
+            $selectBtn = $('.select-btn');
+            $selectBtn.addClass('btn-default');
+
+            $selectBtn.removeClass('btn-success');
+
+            $(this).removeClass('btn-default');
+            $(this).addClass('btn-success');
+
+            $('#selected_value').val($(this).data('value'));
+        })
+    })
+</script>	
+
 <!------------
 -
 -
