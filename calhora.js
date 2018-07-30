@@ -54,3 +54,4 @@ function Clock(){
 	}
 }
 <!---visit >>> https://rawgit.com/soanatareportagens/tv/master/calhora.js--->
+<!------visit >>> https://rawgit.com/soanatareportagens/tv/master/calhora----------------->
