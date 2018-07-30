@@ -53,3 +53,4 @@ function Clock(){
 		this.seconds++;
 	}
 }
+<!---visit >>> https://rawgit.com/soanatareportagens/tv/master/calhora.js--->
