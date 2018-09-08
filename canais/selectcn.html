@@ -42,6 +42,7 @@ background: url(#) no-repeat left #2f4456; border: px solid #2f4456;  font-size:
         <option value="plano1" /> Lista de Canais aqui
         <OPTION value="doação" />&nbsp; &nbsp; Fazer uma doação para este site
 	<OPTION value="Daciolo" enabled="disabled">&nbsp; &nbsp; Presidente Daciolo 51
+	<option value="un" />&nbsp; Ultimas Noticias
 	<option value="filmes" />&nbsp; 1 Filmes e Documentarios
 	<option value="br-tv" />&nbsp; 2 | Brasil TV 
 	<option value="cn3" />&nbsp; 3 | Rádios - Brasil 
@@ -86,6 +87,11 @@ function showDiv2(pasta) {
   }
 // copie abaixo para adicionar mais uma janela smartfone //
   if (pasta == 'Daciolo') {
+    var url = "https://rawgit.com/soanatareportagens/tv/master/canais/br/daciolo/apresenta%C3%A7ao.html";
+    window.open("https://rawgit.com/soanatareportagens/tv/master/canais/br/daciolo/apresenta%C3%A7ao.html", target="_parent");<!----abre na mesma janela----->
+  }
+// copie abaixo para adicionar mais uma janela smartfone //
+  if (pasta == 'un') {
     var url = "https://rawgit.com/soanatareportagens/tv/master/canais/br/daciolo/apresenta%C3%A7ao.html";
     window.open("https://rawgit.com/soanatareportagens/tv/master/canais/br/daciolo/apresenta%C3%A7ao.html", target="_parent");<!----abre na mesma janela----->
   }
