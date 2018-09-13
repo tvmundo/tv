@@ -43,7 +43,7 @@ background: url(#) no-repeat left #2f4456; border: px solid #2f4456;  font-size:
         <OPTION value="doação" />&nbsp; &nbsp; Fazer uma doação para este site
 	<OPTION value="Daciolo" enabled="disabled">&nbsp; &nbsp; Presidente Daciolo 51
 	<option value="un" />&nbsp; Ultimas Noticias
-	<option value="filmes" />&nbsp; 1 Filmes e Documentarios
+	<option value="un" />&nbsp; 1 United Nations | Nações Unidas - Inglês
 	<option value="br-tv" />&nbsp; 2 | Brasil TV 
 	<option value="cn3" />&nbsp; 3 | Rádios - Brasil 
         <option value="cn4" />&nbsp; 4 Argentina | 13 Canais 
@@ -68,15 +68,9 @@ background: url(#) no-repeat left #2f4456; border: px solid #2f4456;  font-size:
 	<option value="cn23" />&nbsp; 23 México | 13 Canais
 	<option value="cn24" />&nbsp; 24 Portugal | 2 Canais 
 	<option value="cn25" />&nbsp; 25 Russia | 2 Canais
-	<option value="cn29" enabled="disabled">&nbsp; 29 Uruguay | 1 Canal
-	<option value="cn30" disabled="disabled">&nbsp; 30 ----------------------------
-	<option value="cn32" disabled="disabled">&nbsp; 32 ---------------------------
-	<option value="cn33" disabled="disabled">&nbsp; 33 ------------------------------
-        <option value="cn34" disabled="disabled">&nbsp; 34 ------------------------------
-	<option value="cn39" disabled="disabled">&nbsp; 39 -----------------------------
-	<option value="cn40" disabled="disabled">&nbsp; 40 -----------------------------
-	<option value="cn50" disabled="disabled">&nbsp; 50 -----------------------------
-       
+	<option value="cn26" enabled="disabled">&nbsp; 29 Uruguay | 1 Canal
+	<option value="filmes" />&nbsp; 27 Filmes e Documentarios
+	       
 </div>      
 <!--------------------select pop up inicio--------------->
 <SCRIPT language=Javascript>
@@ -84,6 +78,11 @@ function showDiv2(pasta) {
   if (pasta == 'filmes') {
     var url = "https://rawgit.com/soanatareportagens/tv/master/filmes/apresenta%C3%A7ao.html";
     window.open("https://rawgit.com/soanatareportagens/tv/master/filmes/apresenta%C3%A7ao.html", target="_parent");<!----abre na mesma janela----->
+  }
+// copie abaixo para adicionar mais uma janela smartfone //
+  if (pasta == 'un') {
+    var url = "https://rawgit.com/soanatareportagens/tv/master/canais/un.html";
+    window.open("https://rawgit.com/soanatareportagens/tv/master/canais/un.html", target="_parent");<!----abre na mesma janela----->
   }
 // copie abaixo para adicionar mais uma janela smartfone //
   if (pasta == 'Daciolo') {
@@ -194,7 +193,7 @@ function showDiv2(pasta) {
     var url = "https://rawgit.com/soanatareportagens/tv/master/canais/russia/apresenta%C3%A7ao.html";
     window.open("https://rawgit.com/soanatareportagens/tv/master/canais/russia/apresenta%C3%A7ao.html", target="_parent");
   }
-	if (pasta == 'cn29') {
+	if (pasta == 'cn26') {
     var url = "https://rawgit.com/soanatareportagens/tv/master/canais/Uruguay/apresenta%C3%A7ao.html";
     window.open("https://rawgit.com/soanatareportagens/tv/master/canais/Uruguay/apresenta%C3%A7ao.html", target="_parent");
   }
