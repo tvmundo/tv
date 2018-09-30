@@ -1,0 +1,91 @@
+#player,#player a{ color:#666; }
+#player{ background:url(sizerAndVol.png); background-position: bottom !important; background-repeat: repeat-x !important; }
+#player .mainImage{ background:url(main.png); }
+
+#player #baseLeft{ width:188px; }
+#player #baseRight{ width:145px;}
+#player .button{  width:22px; }
+#player #pause{ left:32px; }
+#player #play{ background:url(playBtn.png);left:31px; }
+#player #previous{ left:8px; }
+#player #next{ left:55px; }
+#player #jp-title{ left:115px;}
+#player #title{ left:115px;}
+#player #tooltip{ right:208px; }
+#player #timer{ right:142px;  }
+#player #list{ right:5px; }
+
+/* Setting/Others Buttons */
+#player #repeatButton a, #player #repeatOnceButton a, 
+#player #repeatAllButton a, #player #shuffleButtonOff a,  #player #shuffleButtonOn a {
+    background-image:url('shuffleRepeatBtn.png');
+    background-repeat:no-repeat;
+    display: block;
+    width: 22px;
+    height: 25px;
+    outline: 0;
+}
+
+#player #repeatButton {left: 88px; position:absolute; z-index: 8;}
+#player #repeatButton a {background-position:0px 0px !important;}
+#player #repeatButton a:active {background-position:0px -25px !important;}
+
+#player #repeatOnceButton {left: 88px; position:absolute; z-index: 8;}
+#player #repeatOnceButton a {background-position:-44px 0px !important;}
+#player #repeatOnceButton a:active {background-position:-44px -25px !important;}
+
+#player #repeatAllButton {left: 88px; position:absolute; z-index: 8;}
+#player #repeatAllButton a {background-position:-22px 0px !important;}
+#player #repeatAllButton a:active {background-position:-22px -25px !important;}
+
+#player #shuffleButtonOff {right: 114px; position:absolute; z-index: 8;}
+#player #shuffleButtonOff a {background-position:-66px 0px !important;}
+#player #shuffleButtonOff a:active {background-position:-66px -25px !important;}
+
+#player #shuffleButtonOn {right: 114px; position:absolute; z-index: 8;}
+#player #shuffleButtonOn a {background-position:-88px 0px !important;}
+#player #shuffleButtonOn a:active {background-position:-88px -25px !important;}
+
+
+#player #seeker{ right:316px; }
+#player #seekerBase{ border-color:#666; }
+#player #seekerBuffered{ background-color:#aaa; }
+#player #seekerSliderBase{ background-color:#666; }
+
+#player #volume{ width:70px; right:33px; }
+#player #volumeSlider{ width:14px; background:url(sizerAndVol.png); }
+
+#playlist,#playlist .module,#playlist h3{ border-color:#000; color:#666; }
+#playlist h3{ background-color: #000; color:#FFF;font-family: Verdana,Arial,sans-serif; font-size: 11px;line-height: 18px; }
+#playlist .even{background-color:#eee;}
+#playlist .odd{ background-color:#ddd;}
+#playlist .focus{ background-color:#666; color:#FFF;}
+
+
+/* Below CSS are for Retina */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+       only screen and (min--moz-device-pixel-ratio: 2),
+       only screen and (-o-min-device-pixel-ratio: 2/1),
+       only screen and (-ms-min-device-pixel-ratio: 2),
+       only screen and (min-device-pixel-ratio: 2) {
+
+       	#player #repeatButton a, #player #repeatOnceButton a, 
+		#player #repeatAllButton a, #player #shuffleButtonOff a,  #player #shuffleButtonOn a  {
+                background: url('shuffleRepeatBtn-X2.png') no-repeat;
+                background-size: 110px 50px;
+            }
+        #player #play  {
+            background: url('playBtn-X2.png') no-repeat;
+            background-size: 23px 50px;
+        }
+        #player .mainImage  {
+            background: url('main-X2.png') no-repeat;
+            background-size: 450px 50px;
+        }
+        #player, #player #volumeSlider  {
+            background: url('sizerAndVol-X2.png') no-repeat;
+            background-size: 14px 50px;
+        }
+   
+}

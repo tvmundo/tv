@@ -1,0 +1,96 @@
+#playerW{width:450px;right:50px !important;;left:auto !important;}
+#player #miniBaseCenter{width:300px; height:25px; left:30px;z-index:0; position:absolute; background:url(http://i58.tinypic.com/643wg5.jpg); background-position: bottom !important; background-repeat: repeat-x !important;}
+
+#player,#player a{ color:#644a34; }
+#player .mainImage{ background:url(http://i62.tinypic.com/2h8bvpw.jpg); }
+
+#player #baseLeft{ width:188px; }
+#player #baseRight{ width:145px;}
+#player .button{  width:22px; }
+#player #play{ background:url(http://i60.tinypic.com/r2jgae.jpg); }
+#player #play,#player #pause{ left:32px; }
+#player #previous{ left:8px; }
+#player #next{ left:55px; }
+#player #jp-title{ left:115px; width:110px;}
+#player #title{ left:115px;width:110px;cursor: help;white-space: nowrap; text-overflow: ellipsis; overflow: hidden; }
+#player #tooltip{ right:118px; }
+#player #timer{ right:142px;display:none;  }
+#player #list{ right:5px; }
+
+/* Setting/Others Buttons */
+#player #repeatButton a, #player #repeatOnceButton a, 
+#player #repeatAllButton a, #player #shuffleButtonOff a,  #player #shuffleButtonOn a {
+    background-image:url('http://i57.tinypic.com/dyqf78.jpg');
+    background-repeat:no-repeat;
+    display: block;
+    width: 22px;
+    height: 25px;
+    outline: 0;
+}
+
+#player #repeatButton {left: 88px; position:absolute; z-index: 8;}
+#player #repeatButton a {background-position:0px 0px !important;}
+#player #repeatButton a:active {background-position:0px -25px !important;}
+
+#player #repeatOnceButton {left: 88px; position:absolute; z-index: 8;}
+#player #repeatOnceButton a {background-position:-44px 0px !important;}
+#player #repeatOnceButton a:active {background-position:-44px -25px !important;}
+
+#player #repeatAllButton {left: 88px; position:absolute; z-index: 8;}
+#player #repeatAllButton a {background-position:-22px 0px !important;}
+#player #repeatAllButton a:active {background-position:-22px -25px !important;}
+
+#player #shuffleButtonOff {right: 114px; position:absolute; z-index: 8;}
+#player #shuffleButtonOff a {background-position:-66px 0px !important;}
+#player #shuffleButtonOff a:active {background-position:-66px -25px !important;}
+
+#player #shuffleButtonOn {right: 114px; position:absolute; z-index: 8;}
+#player #shuffleButtonOn a {background-position:-88px 0px !important;}
+#player #shuffleButtonOn a:active {background-position:-88px -25px !important;}
+
+
+#player #seeker{ right:316px; display:none;}
+#player #seekerBase{ border-color:#644a34; }
+#player #seekerBuffered{ background-color:#2094e6; }
+#player #seekerSliderBase{ background-color:#644a34; }
+
+#player #volume{ width:70px; right:33px; }
+#player #volumeSlider{ width:14px; background:url(http://i58.tinypic.com/643wg5.jpg); }
+
+#playlist,#playlist .module,#playlist h3{ border-color:#03385c; color:#644a34; }
+#playlist h3{ background:url(http://i57.tinypic.com/xmqx52.jpg); background-repeat: repeat-x !important; color:#FFF;font-family: Verdana,Arial,sans-serif; font-size: 11px;line-height: 18px; }
+#playlist .even{background-color:#FFF;}
+#playlist .odd{ background-color:#C99265;}
+#playlist .focus{ background-color:#644a34; color:#FFF;}
+
+
+/* Below CSS are for Retina */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+       only screen and (min--moz-device-pixel-ratio: 2),
+       only screen and (-o-min-device-pixel-ratio: 2/1),
+       only screen and (-ms-min-device-pixel-ratio: 2),
+       only screen and (min-device-pixel-ratio: 2) {
+
+       	#player #repeatButton a, #player #repeatOnceButton a, 
+		#player #repeatAllButton a, #player #shuffleButtonOff a,  #player #shuffleButtonOn a  {
+                background: url('http://i61.tinypic.com/10rirgm.jpg') no-repeat;
+                background-size: 110px 50px;
+            }
+        #player #play  {
+            background: url('http://i60.tinypic.com/sblefl.jpg') no-repeat;
+            background-size: 23px 50px;
+        }
+        #player .mainImage  {
+            background: url('http://i59.tinypic.com/25ibuip.jpg') no-repeat;
+            background-size: 450px 50px;
+        }
+        #player #miniBaseCenter, #player #volumeSlider  {
+            background: url('http://i62.tinypic.com/ofvk1s.jpg') no-repeat;
+            background-size: 14px 50px;
+        }
+        #playlist h3  {
+            background: url('http://i61.tinypic.com/igm7ev.jpg') no-repeat;
+            background-size: 8px 22px;
+        }
+}
